@@ -1,4 +1,4 @@
-# ASFW
+# Assistant Shell For Windows
 Assistant Shell for Windows like a Powrshell but more usefull.
 this files has been created by hYdNoxatra
 
