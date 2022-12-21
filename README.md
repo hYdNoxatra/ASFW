@@ -11,6 +11,7 @@
 ### 2-exit --> quit to main menu
 ### 3-git open --> opens github
 ### 4-itch open --> opens itch.io
+### 5-ai_makejoke --> makes little secret joke. ;)
 
 ## command in search mode:
 ### you can search on google what do you want.
