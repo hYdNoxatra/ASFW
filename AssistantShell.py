@@ -8,7 +8,8 @@ print(''' This application shell has been created by
           1- git open
           2- itch open
           3- /search
-          4- exit
+          4-ai_makejoke
+          5- exit
           --------------------------
           1- /exitSearchmode
           2- whatever you write. It searches.''')
@@ -31,6 +32,9 @@ def open_itch():
                 git_url = "https://itch.io/"
                 webbrowser.get().open(git_url)
                 print("opening itch...")
+def  make_joke():
+    joker_url = "https://pointerpointer.com/"
+    webbrowser.get().open_new_tab(joker_url)
 while(True):
     com = input("\nPlease enter a command:-# ")
 
@@ -54,6 +58,8 @@ while(True):
                 open_github()
             elif(a == "itch open"):
                 open_itch()
+            elif(a == "ai_makejoke"):
+                make_joke()
             else:
                 undefined()
     elif(com == "exit"):
