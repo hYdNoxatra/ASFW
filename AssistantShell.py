@@ -14,7 +14,7 @@ print(''' This application shell has been created by
           1- /exitSearchmode
           2- whatever you write. It searches.''')
 def undefined():
-    print("Error 1453: Command undefined. \n")
+    print("Error 1071: Command undefined. \n")
 
     
 def search_item(search):
