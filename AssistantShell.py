@@ -8,8 +8,9 @@ print(''' This application shell has been created by
           1- git open
           2- itch open
           3- /search
-          4-ai_makejoke
-          5- exit
+          4- ai_makejoke
+          5- open c-gpt
+          6- exit
           --------------------------
           1- /exitSearchmode
           2- whatever you write. It searches.''')
