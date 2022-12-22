@@ -35,6 +35,12 @@ def open_itch():
 def  make_joke():
     joker_url = "https://pointerpointer.com/"
     webbrowser.get().open_new_tab(joker_url)
+    
+    
+def chatGPT():
+        chat_url = "https://chat.openai.com/chat"
+        webbrowser.get().open(chat_url)
+        print("Opening my BFF <3..")
 while(True):
     com = input("\nPlease enter a command:-# ")
 
@@ -60,6 +66,8 @@ while(True):
                 open_itch()
             elif(a == "ai_makejoke"):
                 make_joke()
+            elif(a == "open c-gpt"):
+                chatGPT()
             else:
                 undefined()
     elif(com == "exit"):
